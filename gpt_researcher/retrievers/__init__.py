@@ -3,6 +3,7 @@ from .bing.bing import BingSearch
 from .custom.custom import CustomRetriever
 from .duckduckgo.duckduckgo import Duckduckgo
 from .google.google import GoogleSearch
+from .kagi.kagi import KagiSearch
 from .pubmed_central.pubmed_central import PubMedCentralSearch
 from .searx.searx import SearxSearch
 from .semantic_scholar.semantic_scholar import SemanticScholarSearch
@@ -20,6 +21,7 @@ __all__ = [
     "SerperSearch",
     "SerpApiSearch",
     "GoogleSearch",
+    "KagiSearch",
     "SearxSearch",
     "BingSearch",
     "ArxivSearch",

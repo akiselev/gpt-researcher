@@ -59,6 +59,10 @@ def get_retriever(retriever: str):
             from gpt_researcher.retrievers import PubMedCentralSearch
 
             return PubMedCentralSearch
+        case "kagi":
+            from gpt_researcher.retrievers import KagiSearch
+            
+            return KagiSearch
         case "custom":
             from gpt_researcher.retrievers import CustomRetriever
 

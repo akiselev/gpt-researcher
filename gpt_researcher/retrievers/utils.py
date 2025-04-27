@@ -8,6 +8,7 @@ VALID_RETRIEVERS = [
     "duckduckgo",
     "exa",
     "google",
+    "kagi",
     "searchapi",
     "searx",
     "semantic_scholar",
